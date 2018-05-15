@@ -22,6 +22,7 @@ import pers.zlb.util.redrawUI.MyJmenuItems;
  * 创建时间：2018年2月6日 上午2:17:54   <br/>
  * 类 描  述：   <br/>
  *   
+ *    定制 弹出菜单 样式
  *
  */
 public class MyJpopMenu extends JPopupMenu {
@@ -42,6 +43,8 @@ public class MyJpopMenu extends JPopupMenu {
 	//设置菜单选项内容
 		public  MyJmenuItems setJmenu(String emenuName,String tooTipText,Icon icon) {
 			jMenu  = new MyJmenuItems(emenuName,icon);
+			//透明
+			jMenu.setOpaque(true);
 			//设置文字颜色
 			jMenu.setForeground(new Color(0,0,0,0));
 			//背景透明
