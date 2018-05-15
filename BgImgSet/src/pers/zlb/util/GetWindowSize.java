@@ -1,4 +1,4 @@
-package pers.zlb.start_up;
+package pers.zlb.util;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -13,7 +13,7 @@ import java.awt.Toolkit;
  * 类 描  述：   <br/>
  * 
  * 
- *   获取windows的 大小
+ *   自动获取windows 桌面的 大小
  *
  */
 public class GetWindowSize {

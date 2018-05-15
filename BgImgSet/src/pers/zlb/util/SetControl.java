@@ -21,7 +21,7 @@ import pers.zlb.util.redrawUI.MyButton;
  * 创建时间：2018年1月31日 下午4:26:51   <br/>
  * 类 描  述：   <br/>
  *   
- *  控件设置
+ *  基本控件设置
  *
  */
 public class SetControl extends MyButton{
@@ -29,7 +29,7 @@ public class SetControl extends MyButton{
 	private static final long serialVersionUID = 4616714724669159906L;
 	private MyButton button;
 
-	// 控件的基本设置
+	// 按钮控件的基本设置
 	public MyButton setButtons(String butName,Icon buttonIcon, String toolTipTetx, int buttonWidth, int buttonHeight,
 			boolean bol,BgImgSetFrame bsf,MyJpopMenu mjm) {
 		button = new MyButton(butName,buttonIcon);

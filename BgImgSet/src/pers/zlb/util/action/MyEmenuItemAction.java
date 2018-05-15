@@ -18,6 +18,7 @@ import pers.zlb.util.redrawUI.MyJmenuItems;
  * 创建时间：2018年2月6日 下午9:48:48   <br/>
  * 类 描  述：   <br/>
  *   
+ *    弹出菜单  鼠标事件
  *
  */
 public class MyEmenuItemAction implements MouseListener{

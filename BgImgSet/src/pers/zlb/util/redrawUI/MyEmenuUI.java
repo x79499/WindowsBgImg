@@ -5,7 +5,6 @@ package pers.zlb.util.redrawUI;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
@@ -28,6 +27,7 @@ import pers.zlb.util.constant.FrameImgConstant;
  * 创建时间：2018年2月6日 下午10:25:53   <br/>
  * 类 描  述：   <br/>
  *   
+ *    定制 菜单 的默认样式
  *
  */
 public class MyEmenuUI extends BasicMenuItemUI {
@@ -116,6 +116,7 @@ public class MyEmenuUI extends BasicMenuItemUI {
 			g.setColor(new Color(0, 0, 0, 0));
 			g.drawRect(0, 0, menuItem.getWidth() - 8, menuItem.getHeight() - 10);
 			g.drawImage(FrameImgConstant.bg_01, 0, 0, null);
+			
 		}
 	}
 	

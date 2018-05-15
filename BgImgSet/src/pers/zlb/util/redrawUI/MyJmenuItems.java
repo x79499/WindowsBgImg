@@ -21,6 +21,7 @@ import javax.swing.border.Border;
  * 创建时间：2018年2月6日 下午6:47:08   <br/>
  * 类 描  述：   <br/>
  *   
+ *   定制菜单列表 样式
  *
  */
 public class MyJmenuItems extends JMenuItem{
@@ -44,6 +45,7 @@ public class MyJmenuItems extends JMenuItem{
 			jt.setFont(new Font("宋体", Font.PLAIN, 15));
 			// 字体颜色
 			jt.setForeground(Color.RED);
+			//设置边框样式
 			jt.setBorder(border);
 			// 更新UI
 			jt.updateUI();

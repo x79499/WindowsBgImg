@@ -10,7 +10,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import pers.zlb.start_up.GetWindowSize;
 import pers.zlb.util.constant.FrameImgConstant;
 import pers.zlb.util.redrawUI.MyJmenuItems;
 
@@ -43,7 +42,7 @@ public class BgImgSetFrame extends JFrame{
 	public BgImgSetFrame() {};
 	
     //启动程序
-	private void StartUp() {
+	public void StartUp() {
 		// 设置标题
 		this.setTitle("Java版壁纸设置");
 		// 任务栏图标隐藏

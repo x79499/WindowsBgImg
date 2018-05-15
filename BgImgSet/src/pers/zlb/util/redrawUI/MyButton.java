@@ -21,6 +21,7 @@ import javax.swing.border.Border;
  * 创建时间：2018年2月1日 下午3:09:21   <br/>
  * 类 描  述：   <br/>
  *   
+ *   按钮控件的 预处理
  *
  */
 public class MyButton extends JButton {
